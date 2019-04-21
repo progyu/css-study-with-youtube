@@ -4,4 +4,4 @@
 
 [veamcamp](https://www.youtube.com/channel/UCvx57s_ZBt5VG4fvlStiq2g)의 강의를 활용할 계획
 
-[나의 깃허브 블로그](https://progyu.github.io/)에도 포스트 할 예정이다.
+[나의 깃허브 블로그](https://progyu.github.io/)의 css 카테고리에 올릴 예정이다.
