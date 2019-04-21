@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+.parents {
+  width: 300px;
+  height: 300px;
+  background-color: orange;
+  /* css 속성에 따라서 auto가 의미 하는 바가 조금씩 달라 진다. */
+  /* div는 block 요소 */
+  /* 상.하단 :0,  좌.우 : auto*/
+  margin: 0 auto;
+
+  /* left, right의 모두 auto 값을 주면 둘이서 공간을 나누어 가진다. margin: auto; 를 준 것과 같은 효과이다. */
+  /* left에만 margin auto 값을 주면 parents의 가용공간을 margin-left를 사용하는데 쓴다. --> 오른쪽으로 배치된다.*/
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+
+  /* 상,하단에는 가용공간을 가지고 있지 않기 때문에 auto 값을 사용할 수 없다. */
+  /* margin-top: auto; */
+  /* margin-bottom: auto; */
+}
+
+.children {
+  width: 100px;
+  height: 100px;
+  background-color: orangered;
+  /* margin을 이용한 가운데 정렬은 block 요소*/
+  margin: 0 auto;
+  /*  text-align은 block요소에게 주되, block 요소 안에 있는 inline 요소를 가운데 정렬시킨다.  */
+  text-align: center;
+}
